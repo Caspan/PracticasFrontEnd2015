@@ -1,0 +1,46 @@
+body{
+	background: #ddd;
+}
+
+.conten-1{
+	background: #005678;
+	width: 200px;
+	height: 300px;
+}
+.conten-2{
+	background: #890000;
+	width: 400px;
+	height: 300px;
+	position: relative;
+}
+.conten-3{
+	background: #988767;
+	width: 600px;
+	height: 300px;
+}
+
+section,
+article,
+aside{
+	width: 50%;
+	height: 50px;
+	background: red;
+}
+
+section{
+	position: relative;
+	bottom: -100px;
+    line-height: 300px;
+}
+
+article{
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    line-height: 50px;
+    text-align: center;
+}
+
+aside{
+	position: fixed;
+}
